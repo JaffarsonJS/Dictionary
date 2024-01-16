@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    /* border: 1px solid #000; */
+    height: 550px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* .main div{
+    border: 1px solid red;
+} */
+
+.main .search{
+    /* border: 5px solid green; */
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main .search input{
+    height: 50px;
+    width: 50%;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 4px solid aqua;
+    background: transparent;
+}
+
+.main .search button{
+    width: 30%;
+}
+
+.main .details {
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 95%;
+    padding: 10px;
+}
+
+.main .details .wordDiv{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .details .wordDiv button{
+    border: none;
+    font-size: 20px; 
+}
+
+.main .details .wordDiv button i:hover {
+    cursor: pointer;
+     color: aqua;
+}   
+.main .details .phoDiv{
+    display: flex;  
+    align-items: end;
+    justify-content: start;
+    gap: 50px;
+    padding: 10px;
+}
+
+
+.main .meaningExampleDiv{
+    /* border: 1px solid blue; */
+    height: 170px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 10px;
+}
+
+.main .meaningExampleDiv div{
+    padding: 10px;
+    border-left: 3px solid aqua;
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+}
+
